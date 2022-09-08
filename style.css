@@ -8,50 +8,44 @@
     color: #000;
 }
 
+h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+h3{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
 .intro_bg{
+    height: 750px;
+    width:100%;
     background-image:url("bg/night.jpg");
     background-repeat: no-repeat;
-    height: 1000px;
+    background-position: center;
     background-size: cover;
 }
 
 .header{
     display:flex;
+    height:86px;
     width:1280px;
     margin: auto;
-    height:86px;
+    top: 0; 
 }
 
-.searchArea{
-    width: 300px;
-    height: 40px;
-    background:rgba(0,0,0,0.5);
-    border-radius: 5px;
-    margin-top: 24px;
-}
-
-.searchArea > form > input{
-    border:none;
-    width:250px;
-    height:40px;
-    background: rgba(0,0,0,0.0);
-    color:#fff;
-    padding-left: 10px;
-}
-
-.searchArea > form > span{
-    width: 50px;
-    color:#fff;
-    font-weight: bold;
-    cursor: pointer;
+.content1{
+    font-size: 18px;
 }
     
 .nav{
+    position:fixed;
     display: flex;
     justify-content: flex-end;
     line-height: 86px;
-    width:calc(1280px - 300px);
+    width:80%;
     font-weight: bold;
+    
 }
 
 .nav>li{
@@ -61,3 +55,87 @@
 .nav>li>a{
     color:#fff; 
 }
+
+.intro_text{
+    width:100%;
+    margin:200px auto 231px auto;/*상-우-하-좌 순서 마진*/
+    text-align: right;
+    /* position: relative;
+    left: 150px;*/
+
+
+}
+.intro_text > h1{
+    padding-right: 140px;
+    color:#fff;
+    position: relative;
+   /* left: 140px;*/
+}
+.intro_text>h3{
+    padding-right:30px;
+    color: #fff;
+}
+
+/* main_interpret*/
+
+.main_interpret{
+    width:100%;
+    height:750px;
+    background-color:#808080;
+    text-align: left;
+}
+.main_interpret>h2{
+    padding-top: 200px;
+    padding-left: 100px;
+    color: #fff;
+}
+.main_interpret>h3{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-weight: lighter;
+    color:#fff;
+}
+
+/*main_contact*/
+.main_contact{
+    width:100%;
+    height:750px;
+    background-color:#696969;
+    text-align: left;
+}
+.main_contact>h2{
+    padding-top: 200px;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.icons{
+    display:flex;
+    width:70%;
+    height:50%;
+    margin:auto;
+}
+
+.icons>li{
+    flex:1;
+    height:70%;
+    background: white;
+    margin-top:49px;
+    text-align: center;
+}
+
+
+.icons>li>.content1{
+    margin-top: 8%;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.icons>li:not(:last-child){
+    margin-right:20px;
+}
+
+.icons>li>.icon_img2{
+    margin-top: 10px;
+}
+
