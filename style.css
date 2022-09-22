@@ -112,10 +112,14 @@ h3{
     left:50%;
     width:95%;
     top: 130%;
-    overflow: auto;
+    overflow: hidden;
 }
 
-
+.interp_video>img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .interp_img>a:link{
     color:#fff;
     text-decoration: underline;
