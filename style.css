@@ -187,6 +187,11 @@ h3{
         width:auto;
     }
 
+    .main_interpret>.interp_his{
+        float:none;
+        width:auto;
+    }
+
     .main_contact{
         float:none;
         width:auto;
