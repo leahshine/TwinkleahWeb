@@ -87,18 +87,33 @@ h3{
     text-align: left;
 }
 .main_interpret>h2{
-    padding-top: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 100px;
     color: #fff;
 }
 .main_interpret>h3{
-    padding-top: 50px;
+    padding-top: 5%;
     padding-left: 100px;
     font-weight: lighter;
     color:#fff;
 }
 
-.interp_his>p{
+.main_interpret>p{
+    color:#fff;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 30px;
+       
+}
+
+.main_interpret>h4{
+    color:#fff;
+    padding-left: 100px;    
+    font-weight: lighter;  
+}
+
+/*.interp_his>p{
     padding-top: 70px;
     padding-left: 100px;
     color:#fff;
@@ -107,12 +122,12 @@ h3{
 .interp_his>pre{
     padding-left: 100px;
     color:#fff;
- }
+ }*/
 .interp_video{
     position: flex;
     float:right;
     right:10%;
-    width:550px;
+    width:650px;
     height:400px;
     margin-right: 20px;
     overflow: hidden;
@@ -187,11 +202,7 @@ h3{
         width:auto;
     }
 
-    .main_interpret>.interp_his{
-        float:none;
-        width:auto;
-    }
-
+   
     .main_contact{
         float:none;
         width:auto;
