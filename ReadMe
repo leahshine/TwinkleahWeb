@@ -1,0 +1,15 @@
+This is a simple website of myself!
+
+<2022-09-21>
+Self-Learning HTML&CSS for the first time, and this website is
+a result of my short period of learning. 
+
+Used Netlify to publish HTML code to webpage. 
+
+The HTML code has 3 big sections: Intro(home), Interpretation, and Contact.
+Each section has css code for style its text, and imgs
+
+1.Intro is homepage, introducing who I am.
+2.Interpretation page has a hyperlink to a sample interpretation video
+3.Contact page has hyperlinks to my Github page and email. 
+
