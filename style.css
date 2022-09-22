@@ -96,6 +96,33 @@ h3{
     color:#fff;
 }
 
+.interp_his>p{
+    padding-top: 70px;
+    padding-left: 100px;
+    color:#fff;
+    font-weight: bold;
+}
+.interp_his>pre{
+    padding-left: 100px;
+    color:#fff;
+ }
+.interp_video{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    width:95%;
+    top: 130%;
+}
+
+.interp_img>a:link{
+    color:#fff;
+    text-decoration: underline;
+}
+.interp_img>a:visited{
+    color:#fff;
+    text-decoration: underline;
+}
+
 /*main_contact*/
 .main_contact{
     width:100%;
