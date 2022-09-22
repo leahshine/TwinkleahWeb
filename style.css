@@ -5,7 +5,7 @@
     border-collapse: collapse;
     margin: 0px;
     padding: 0px;
-    color: #000;
+    color: #fff;
 }
 
 h1{
@@ -53,9 +53,12 @@ h3{
 .nav>li{
     margin-left: 84px;
 }
-
-.nav>li>a{
-    color:#fff; 
+/* navigation menu color changes*/
+.nav>li>a:hover{
+    color:#bee443; 
+}
+.nav>li>a:active{
+    color:#8db214; 
 }
 
 .intro_text{
@@ -69,14 +72,12 @@ h3{
 }
 .intro_text > h1{
     padding-right: 140px;
-    color:#fff;
     position: relative;
    /* left: 140px;*/
 }
 .intro_text>h3{
     padding-right:30px;
-    color: #fff;
-}
+   }
 
 /* main_interpret*/
 
@@ -90,17 +91,14 @@ h3{
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 100px;
-    color: #fff;
-}
+   }
 .main_interpret>h3{
     padding-top: 5%;
     padding-left: 100px;
     font-weight: lighter;
-    color:#fff;
-}
+   }
 
 .main_interpret>p{
-    color:#fff;
     font-weight: bold;
     padding-left: 100px;
     padding-top: 30px;
@@ -108,21 +106,9 @@ h3{
 }
 
 .main_interpret>h4{
-    color:#fff;
     padding-left: 100px;    
     font-weight: lighter;  
 }
-
-/*.interp_his>p{
-    padding-top: 70px;
-    padding-left: 100px;
-    color:#fff;
-    font-weight: bold;
-}
-.interp_his>pre{
-    padding-left: 100px;
-    color:#fff;
- }*/
 .interp_video{
     position: flex;
     float:right;
@@ -136,15 +122,17 @@ h3{
 .interp_img{
     max-width: 50%;
     height: auto;
-    display: block;
-    
 }
+
+/*video hyperlink color changes*/
 .interp_img>a:link{
-    color:#fff;
     text-decoration: underline;
 }
 .interp_img>a:visited{
-    color:#fff;
+    text-decoration: underline;
+}
+.interp_img>a:hover{
+    color:#99ccf9 ;
     text-decoration: underline;
 }
 
@@ -156,10 +144,9 @@ h3{
     text-align: left;
 }
 .main_contact>h2{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 100px;
-    color: #fff;
-}
+   }
 
 .icons{
     display:flex;
@@ -176,6 +163,16 @@ h3{
     text-align: center;
 }
 
+/*content hyperlink text color changes*/
+.content1>a:link{
+    text-decoration: underline;
+    color:black;
+}
+
+.content1>a:visited{
+    text-decoration: underline;
+    color:black;
+}
 
 .icons>li>.content1{
     margin-top: 8%;
