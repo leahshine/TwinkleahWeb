@@ -107,13 +107,14 @@ h3{
     color:#fff;
  }
 .interp_video{
-    position:absolute;
-    display: fixed;
+    position: absolute;
     justify-content: flex-end;
     left:50%;
     width:95%;
     top: 130%;
+    overflow: auto;
 }
+
 
 .interp_img>a:link{
     color:#fff;
@@ -168,7 +169,7 @@ h3{
 }
 
 /*mobile ver*/
-@media(max-width:480px){
+@media screen and(max-width:480px){
     .intro_bg{
         width:auto;
     }
