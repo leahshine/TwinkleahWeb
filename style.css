@@ -108,8 +108,9 @@ h3{
  }
 .interp_video{
     position:absolute;
-    display: flex;
+    display: fixed;
     justify-content: flex-end;
+    left:50%;
     width:95%;
     top: 130%;
 }
@@ -166,3 +167,19 @@ h3{
     margin-top: 10px;
 }
 
+/*mobile ver*/
+@media(max-width:480px){
+    .intro_bg{
+        width:auto;
+    }
+
+    .main_interpret{
+        float:none;
+        width:auto;
+    }
+
+    .main_contact{
+        float:none;
+        width:auto;
+    }
+}
