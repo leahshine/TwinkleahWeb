@@ -19,6 +19,7 @@ h3{
 
 .intro_bg{
     height: 750px;
+    /*width:1519px;*/
     width:100%;
     background-image:url("bg/night.jpg");
     background-repeat: no-repeat;
@@ -29,7 +30,8 @@ h3{
 .header{
     display:flex;
     height:86px;
-    width:1280px;
+    /*width:1280px;*/
+    width:100%;
     margin: auto;
     top: 0; 
 }
@@ -107,15 +109,16 @@ h3{
     color:#fff;
  }
 .interp_video{
-    position: absolute;
-    justify-content: flex-end;
-    left:50%;
-    width:95%;
-    top: 130%;
+    background-color: aqua;
+    position: flex;
+    right:10%;
+    width:35%;
+    height:50%;
     overflow: hidden;
 }
 
 .interp_video>img{
+    background-color: antiquewhite;
     max-width: 100%;
     height: auto;
     display: block;
@@ -143,6 +146,7 @@ h3{
 }
 
 .icons{
+    background-color: aqua;
     display:flex;
     width:70%;
     height:50%;
